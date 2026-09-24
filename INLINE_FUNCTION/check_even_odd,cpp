@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+inline bool isEven(int n)
+{
+    return n % 2 == 0;
+}
+
+int main()
+{
+    int num = 18;
+
+    if (isEven(num))
+        cout << "Even number";
+    else
+        cout << "Odd number";
+
+    return 0;
+}
